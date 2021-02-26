@@ -629,7 +629,7 @@ body {
   position: absolute;
   right: 20px;
   top: 50%;
-  margin: -12px 0px 0px 0px;
+  margin: -6px 0px 0px 0px;
 }
 .accordion__text {
   overflow: auto;
@@ -645,7 +645,7 @@ body {
 
 .accordion__item.active .accordion__arrow {
   transform: rotate(45deg);
-  margin: -6px 0px 0px 0px;
+  margin: -12px 0px 0px 0px;
 }
 
 .reviews {
