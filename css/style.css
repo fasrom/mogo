@@ -625,14 +625,14 @@ body {
   border-right: 2px solid #cccccc;
   width: 16px;
   height: 16px;
-  transform: rotate(45deg);
+  transform: rotate(-135deg);
   position: absolute;
   right: 20px;
   top: 50%;
   margin: -12px 0px 0px 0px;
 }
 .accordion__text {
-  overflow: hidden;
+  overflow: auto;
   padding: 20px;
   border: 1px solid #e5e5e5;
   font-family: "Roboto";
@@ -644,7 +644,7 @@ body {
 }
 
 .accordion__item.active .accordion__arrow {
-  transform: rotate(-135deg);
+  transform: rotate(45deg);
   margin: -6px 0px 0px 0px;
 }
 
